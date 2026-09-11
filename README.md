@@ -1,8 +1,8 @@
 # Enterprise Management
 
-VB6 working copy of `Enterprise Management` from Dave Robinson's OneDrive Historical Dev `VB/Old` folder. Project title: Client. Output: `Logon Client.exe`. `VersionCompanyName`: Unknown Organization. Contains 3 project files.
+Three-project VB6 enterprise logon suite: Winsock logon client (`Logon Client.exe`) that contacts `%LOGONSERVER%` on port 1001 and receives drive/printer mapping data; matching logon server (`Logon Server.exe`); and a User Management project for account work. Client UI steps through contact, send request, receive data, disconnect, then mapping drives/printers.
 
-**Source last updated:** 2026-08-27 · **Language:** VB6 · **Target:** VB6 Win32 · **Output:** WinForms exe
+**Source last updated:** 2026-08-27 · **Language:** VB6 · **Target:** VB6 Win32 · **Output:** WinForms exe (3 projects)
 
 _Note: original OneDrive LastWriteTime values were wiped to 2026-08-27 by a zip transfer; date above uses best available evidence (headers/copyright where helpful)._
 
@@ -10,9 +10,9 @@ _Note: original OneDrive LastWriteTime values were wiped to 2026-08-27 by a zip 
 
 | Project | Language | Type | Purpose |
 |---------|----------|------|---------|
-| `Client` (`Logon Client/Logon Client.Vbp`) | VB6 | WinForms exe | Client |
-| `UserMan` (`User Management/User Management.vbp`) | VB6 | WinForms exe | UserMan |
-| `Server` (`Logon Server/Logon Server.Vbp`) | VB6 | WinForms exe | Server |
+| `Client` (`Logon Client/Logon Client.Vbp`) | VB6 | WinForms exe | Winsock logon client |
+| `UserMan` (`User Management/User Management.vbp`) | VB6 | WinForms exe | User management UI |
+| `Server` (`Logon Server/Logon Server.Vbp`) | VB6 | WinForms exe | Winsock logon server |
 
 ## How to open
 
