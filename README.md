@@ -31,7 +31,7 @@ Open the `.vbp` in Visual Basic 6.0 IDE:
 
 ## Attribution and provenance
 
-Working copy from Dave Robinson's OneDrive Historical Dev folder `VB/Old/Enterprise Management`.
+Working copy from my Historical Dev folder `VB/Old/Enterprise Management`.
 Company names in project files: Unknown Organization.
 
 ## License
